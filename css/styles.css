@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap');
+body {
+    margin: 0%;
+    font-family: 'Raleway', sans-serif;
+}
+
+#header {
+    height: 100vh;
+    background-image: url(../img/fondo.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#header h1 {
+    color: red;
+    margin: 0%;
+    padding: 0% 20%;
+    font-size: 50px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main .urban {
+    background-color: black;
+    color: white;
+}
+
+h2 {
+    color: blue;
+}
+
+.argentina {
+    color: white;
+    background-color: aqua;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.chile {
+    color: red;
+    background-color: blue;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.españa {
+    color: yellow;
+    background-color: red;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.mexico {
+    color: white;
+    background-color: green;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.perú {
+    color: white;
+    background-color: red;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.formato {
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    text-align: center;
+}
+
+img {
+    width: 50%;
+}
+
+#footer {
+    color: grey;
+    background-color: black;
+    text-align: center;
+    padding: 12px;
+}
+
+@media only screen and (max-width: 600px) {
+    #header h1 {
+        padding: 1%;
+        font-size: 40px;
+    }
+    #main {
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    #main p {
+        font-size: 15px;
+    }
+    #main h1 {
+        font-size: 35px;
+    }
+}
